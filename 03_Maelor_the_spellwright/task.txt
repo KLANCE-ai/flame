@@ -2,14 +2,20 @@
 
 PREDICT:
 What will the page look like? Where will it appear?
+I think there will be a bunch of text within a yellow box, bordered with a red outline. It will have a description and a title.
 
 RUN:
 Check that the image shows up and fits inside the card.
+What did you see? Were you right or wrong?
+I saw something similar to what I saw; it looks like a tarrot card. I was right with the main idea of the card, yet I didn't mention smaller details like sections within the card.
 
 INVESTIGATE:
 - What does max-width do?
+It is the width of the profile card as a whole.
 - What’s the difference between margin and padding?
+Margin is the space between the tagline and the profile card. Padding is the space within the profile card.
 - What are the . and # doing?
+. ensures the profile card exists, if not there it will be deleted. # ensures the tagline follows all the stylistic choices underneath.
 
 MODIFY:
 - Round the image corners more

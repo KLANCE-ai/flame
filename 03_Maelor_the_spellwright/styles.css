@@ -5,25 +5,26 @@ h1 {
 }
 
 #tagline {
-  color: #F97316;
+  color: #c50606;
   font-style: italic;
   text-align: center;
 }
 
 .profile-card {
-  border: 2px solid #78350F;
-  background-color: #FDE68A;
+  border: 12px solid #e71140;
+  background-color: #d11b61;
   padding: 16px;
   margin: 20px auto;
   max-width: 500px;
-  border-radius: 8px;
+  border-radius: 50px;
   text-align: center;
+  filter: drop-shadow(12px 15px 5px #000000); 
 }
 
 .profile-img {
-  max-width: 100%;
-  border-radius: 8px;
-  margin-bottom: 16px;
+  max-width: 200%;
+  border-radius: 60px;
+  margin-bottom: 10px;
 }
 
 ul {
