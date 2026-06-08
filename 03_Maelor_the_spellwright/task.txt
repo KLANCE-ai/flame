@@ -1,6 +1,7 @@
 🟧 PRIMM: Style Your Candidate
 
 PREDICT:
+Before opening the page. Read the code and answer below:
 What will the page look like? Where will it appear?
 I think there will be a bunch of text within a yellow box, bordered with a red outline. It will have a description and a title.
 
