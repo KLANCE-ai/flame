@@ -6,20 +6,28 @@ We’ll follow the PRIMM model again:
 
 🟡 PREDICT  
 Look at the code in the JS panel. Don’t run it yet.  
-What do you think will happen when you type your name and region and click the button?  
+What do you think will happen when you type your name and region and click the button?
+Enter the text when onclick event is given
 What do you think would happen if you left one of the fields blank?
+The entry will be skipped over.
 
 🟢 RUN  
 Try it out. Type your name and region and click “Join the Party”.  
 What happens? Is it what you expected?
+Yes.
 
 🔵 INVESTIGATE  
 Let’s pick apart the code:
 - What keyword is used to make a variable?
+'let'
 - What is the = sign doing?
+Connects the variable to a value
 - Which line grabs the name?
+Line 12
 - Which line grabs the region?
+Line 17
 - How is the final message put together?
+The code stores the values and brings it back when onclick event is given.
 
 🟠 MODIFY  
 Now try improving how the message is displayed:
