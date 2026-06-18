@@ -8,9 +8,14 @@ function showSignupMessage() {
     messagge = 'brotaco klance needs NAMES'
   } else if (reigon == ''){
     message = 'klance died for.. nothing?????'
+  } else if (role == ''){
+    message = 'lalalalal NOPE'
+  } else if (Party_Name == ''){
+    message = 'NANANNAANAN'
   } else {
-    message = `Welcome ${name} from ${region}. \n Your role is ${role} in ${Party_Name}.`
+     message = `Welcome ${name} from ${region}. \nYour role is ${role} in ${Party_Name}.`            
   }
+
 
   let message = `Welcome ${name} from ${region}. \n Your role is ${role} in ${Party_Name}.`
   document.getElementById("output").innerText = message;
