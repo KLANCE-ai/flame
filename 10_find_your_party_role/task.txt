@@ -5,17 +5,23 @@ This task uses two input types you haven't worked with yet:
 - ✅ Checkboxes (pick MULTIPLE issues)
 
 🟡 PREDICT  
-What will happen if you pick Progressive and tick Environment?  
+What will happen if you pick Progressive and tick Environment? 
+'You'd be perfect for the outreach team' option is given 
 What if you tick everything?
+It doesn't allow you to tick all the party alignment choices, but depending on which alignment you pick it'll give that option
 
 🟢 RUN  
 Try different combinations and see which role the system suggests.
 
 🔵 INVESTIGATE  
 - How is the selected radio button being read?
+Radio = only allows you to pick one box at a time, rather than checkboxes which allows multiple options pressed at the same time
 - What does the loop over checkboxes do?
+It allows the user to have time before results appear, until 'Find my role' is hit, the loop will not end.
 - What is the `includes` function doing?
+Used for the if statement, alignment is relied on - includes mentions the issues.
 - What are the || and the && symbols doing?
+meaning or, and - allowing you to add stuff on the same line (eg for if statements)
 
 🟠 MODIFY  
 - Add another issue (e.g. Housing) and link it to a new role.
