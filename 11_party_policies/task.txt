@@ -12,8 +12,11 @@ Click “Show Policies” and see what appears in the list.
 
 🔵 INVESTIGATE  
 - What is `i` doing?
+range func e.g 1 = 0 < policies.length; i++ (start at 0, go until 5, ++ means add 1))
 - What does `policies[i]` refer to?
+indexing
 - What happens if we add a new item to the array?
+
 
 🟠 MODIFY  
 - Add another policy
